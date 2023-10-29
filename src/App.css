@@ -168,7 +168,7 @@ nav ul li a:hover::after {
   height: 80%;
   justify-content: left;
   align-items: center;
-  padding: 280px 150px;
+  padding: 330px 150px;
   opacity: 1.0;
   background-color: rgba(0, 0, 0, 0.6);
 }
