@@ -102,7 +102,7 @@ nav ul li a:hover::after {
   padding: 80px 20px 20px 20px;
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
   transition: right 0.3s ease-in-out; /* Transition for smooth sliding effect */
   z-index: 1; /* Ensure the sidebar appears above other elements */
@@ -170,7 +170,7 @@ nav ul li a:hover::after {
   justify-content: left;
   align-items: center;
   padding: 330px 150px;
-  opacity: 1.0;
+  opacity: 1;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -517,6 +517,7 @@ form .btn2 {
   display: flex;
   justify-content: center; /* Mengatur konten secara horizontal di tengah */
   align-items: center; /* Mengatur konten secara vertikal di tengah */
+  overflow-x: hidden;
 }
 
 nav .fas {
