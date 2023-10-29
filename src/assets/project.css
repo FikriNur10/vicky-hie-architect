@@ -25,6 +25,9 @@
   padding : 50px 100px 100px 100px;
 }
 
+.Project{
+  overflow-x: hidden;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
